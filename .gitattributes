@@ -1,0 +1,5 @@
+# Preserve the supplied files byte-for-byte.
+README.txt -text
+source/** -text
+*.bin binary
+*.md text eol=lf
